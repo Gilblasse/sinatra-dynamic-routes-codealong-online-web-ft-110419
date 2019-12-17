@@ -30,6 +30,6 @@ class App < Sinatra::Base
   # This is a sample dynamic route.
   get "/multiply/:num1/:num2" do
     @num = params[:num1]
-    "#{@num}."
+    "#{@num}"
   end
 end
